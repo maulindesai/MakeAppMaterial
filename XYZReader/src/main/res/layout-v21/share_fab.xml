@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.FloatingActionButton xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/share_fab"
+    android:layout_width="@dimen/fab_size"
+    android:layout_height="@dimen/fab_size"
+    android:layout_gravity="bottom|end"
+    android:layout_marginBottom="@dimen/fab_margin"
+    android:layout_marginEnd="@dimen/fab_margin"
+    android:contentDescription="@string/action_share"
+    android:src="@drawable/ic_share"
+    android:stateListAnimator="@anim/fab_state_list_anim"
+    app:elevation="@dimen/fab_elevation"
+    app:fabSize="normal"
+    app:pressedTranslationZ="@dimen/fab_press_translation_z"
+    app:rippleColor="#ffffff" />
